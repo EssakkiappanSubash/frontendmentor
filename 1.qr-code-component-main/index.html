@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background: hsl(212, 46%, 89%);
+      font-family: 'Outfit', sans-serif;
+    }
+    section{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      width: 1000px;
+    }
+    .card{
+      width:300px;
+      padding: 15px;
+      margin: auto;
+      background: hsl(0, 0%, 100%);
+      text-align: center;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card-image{
+      width: 100%;
+    }
+    .card-img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card-head{
+      font-size: 21px;
+      color: hsl(218, 44%, 22%);
+    }
+    .card-copy{
+      margin: 0 10px 30px;
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="card">
+        <div class="card-image">
+          <img src="./images/image-qr-code.png" alt="" class="card-img">
+        </div>
+        <h4 class="card-head">
+          Improve your front-end skills by building projects
+        </h4>
+        <p class="card-copy">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Essakkiappan-Subash" target="_blank">Essakkiappan</a>.
+  </div>
+</body>
+</html>
